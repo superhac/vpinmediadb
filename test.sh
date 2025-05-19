@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Manually specify which directories to process
-roots=(3pQvVnu2kv  8XBz7E6n    cCV4A6uc    fGz4ZrUb    I_hPHP6Kta  L1hV72Qj    NwLtspOH    QKMDokrC    test.sh     w9KqTRJN    Zo1g9rC6 \
-3rp82EhC    91XAmtrDdM  CdZWHtTg    fhehIu6i    iIiz13Wn    L8IoaAQU    O1-qbuxg    qO4BxG9a    T-J-s42u    W9nUt5Ok    ZO-uU3wl \
-3UmjYNMXob  9ABPeTuZ    C_hjfS6C    fJqRDp4BzB  ijIciXgF    l8PhYmEL    o9uyN2zm    QocAwukf    _tKtV9Te    wasB0RRz    ZRr0EPnA \
-3U_RONDg    9ADgKgQz    cJTNDux9    FkkA7R0w    IJ-RGGO8    LciGhwwD    OaEvSaiW    qoSWmS2e    tT-FJX5A    WC_n7c7q    ZrSKKrc4 \
-3wd2iWjz    9cAcDFA8    ckemo8oL    fkWx6OFg    Ik0J3yZx    lg07-fz5    oA-XPy3V    qp3J9TyOkj  ttkui-FK    WCULEr5M    ZuXV_QDM \
-3wWmd7Gt    9jmXW_kf    CKoyH1yh    FrfsSwGv    ILvMU6RB    liKT-fsT    OC08D_fq    QPVvqsAo    tuMGDY1n    wDfpPh6g    zvkjy1tK \
+roots=(3X8yksSj    9KP78OzC    cm91AnGV    FRtFUPXpLv  IlZh5lUD    LJRH3fKk    oeE2OvEi    QPXHSssh    tV1GotAP    we5hKN8Y    ZxOdqKhi \
+3y4iGBXr    9Paf7-CL    cmKJ5FS0    fss         _ImE1ptF    LKHoVA2C    OFlFlRLB    qQNywC8u    tzosvH4G    weHeB3SI    zZgQsK0m \
+43ma3WQK    9Uv1Jljw    cnmPRV8d    FTxECos3    ImqfuWt4    lkSumsrF    og6Q_0IQ    qrLAyz0vLm  U2w88neD    wfWt9vwv    Zzvpb-uQ \
+4IwkdORvo_  9vwGpiEb    CptTUpen    FUJaoyR0    inQBnjxk    LMK5EL-k    OgtWKSmg    QRX8qru1    U3s7AsZP    WiQqfEXRyE \
+4Rkn0Owa    9W6UxaqY    CT-i1xk7    fXaQ33KC    -IQc03vLYC  lqnH4vzu    OHcji-5r    QUpU0r4n    u4jQeU5v    wisBSsn3Tc \
+4TmYoWjO    9xdGOmiAgI  CUdkOxqh68  FxvSafVN    IqpOx3UCdj  LSq2khUCTL  oic4w_1ws7  QVRXwWbB    -U4tpnWh    wM2zN7_C~ \
 )
 
 for dir in "${roots[@]}"; do
