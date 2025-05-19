@@ -1,6 +1,26 @@
 # VPinMediaDB
 The VPX Media Database contains the media files for the table, bg, dmd and wheel images.  All media files are tied to the [VPSDB ID](https://virtualpinballspreadsheet.github.io).
 
+## Layout
+```
+{VPS_ID}/
+├── 1k
+│   ├── bg.png
+│   ├── dmd.png
+│   └── fss.png
+├── 4k
+│   ├── fss.png
+│   └── table.png
+└── wheel.png
+```
+
+| Filename | Description         |
+| --------- | ------------------ |
+| bg.png    | Backglass          |
+| dmd.png   | DMD                |
+| fss.png   | Full Single Screen |
+| wheel.png | Wheel              |
+
 ## Acknowledgments 
 
 Special thanks to @jsm174 for making dream of running VPX on Linux a reality.  
