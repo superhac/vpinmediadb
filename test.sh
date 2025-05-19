@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Manually specify which directories to process
-roots=(3CvHz8Fa    8lQ7CE3S    bzDWLumS    f9NtgKVh5c  h_ybvlm_VJ  _kvNlmSu    nQzXPTZz    qF9KP_Utsd  T6wvXEr2Ys  W3WukBcz    Z3YtSbZm \
-3D6BOJo5    8ND2ag4u    bzVsEPQy    faayV02G    HZQ_ZOBS    k_w8Y3slND  nrzNYtRn    qfbl4Ee0    t9PIF9Dbby  w4hQA3ow    z9BMLCAY \
-3fs1jYEg    8r34pIO8    C14QMndG    FDc21ZJEP9  i47o-Nvr    KWr7oeIX5n  Nsm3W_Um    QGU2JjnNzL  ta8-Js_-    W50eAKB_    ZDHIUb-iHE \
-3LNcE1yH    8uhquNv2    c32o40R9    FfjzhB3z    I7mX65rZ    kYmyO8H4    ntPRAsXy    qioD1PKa    TbVtKubK    w5CFwu42    ZedkDwP1 \
-3p3vul2I    8UJwyT9X    c36A48pe    fFQCNbNK    iaC_sSXn    kzDRMEOE    NU0YXld6    QIpFaSOa    Tc_1PRrM    W8KNgel5    ZHAM74SK \
-3pfPL4cb    8V_gfrDnQt  c_93QxEShm  FG1MavGs    igyYYU09    l08huPSJ    nVa6weV6    QJbviO_eed  -TerOryN    W9BhmQ-h1D  ZknYnQZt \
+roots=(3pQvVnu2kv  8XBz7E6n    cCV4A6uc    fGz4ZrUb    I_hPHP6Kta  L1hV72Qj    NwLtspOH    QKMDokrC    test.sh     w9KqTRJN    Zo1g9rC6 \
+3rp82EhC    91XAmtrDdM  CdZWHtTg    fhehIu6i    iIiz13Wn    L8IoaAQU    O1-qbuxg    qO4BxG9a    T-J-s42u    W9nUt5Ok    ZO-uU3wl \
+3UmjYNMXob  9ABPeTuZ    C_hjfS6C    fJqRDp4BzB  ijIciXgF    l8PhYmEL    o9uyN2zm    QocAwukf    _tKtV9Te    wasB0RRz    ZRr0EPnA \
+3U_RONDg    9ADgKgQz    cJTNDux9    FkkA7R0w    IJ-RGGO8    LciGhwwD    OaEvSaiW    qoSWmS2e    tT-FJX5A    WC_n7c7q    ZrSKKrc4 \
+3wd2iWjz    9cAcDFA8    ckemo8oL    fkWx6OFg    Ik0J3yZx    lg07-fz5    oA-XPy3V    qp3J9TyOkj  ttkui-FK    WCULEr5M    ZuXV_QDM \
+3wWmd7Gt    9jmXW_kf    CKoyH1yh    FrfsSwGv    ILvMU6RB    liKT-fsT    OC08D_fq    QPVvqsAo    tuMGDY1n    wDfpPh6g    zvkjy1tK \
 )
 
 for dir in "${roots[@]}"; do
