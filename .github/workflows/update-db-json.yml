@@ -9,17 +9,14 @@ jobs:
   update-vpinmdb:
     runs-on: ubuntu-latest
     steps:
-        - name: Checkout repository
-          uses: actions/checkout@v4
 
-        - name: Clone vpinmediadb and list files
+        - name: Clone vpinmediadb, git ls-tree and generate json file
           run: |
             git clone --no-checkout --depth 1 https://github.com/superhac/vpinmediadb.git
             cd vpinmediadb
             git ls-tree --full-name --name-only -r HEAD > files.txt
             cat files.txt
-        - name: Generate json file
-          run: |
+
             BASE_URL="https://github.com/superhac/vpinmediadb/raw/refs/heads/main"
             declare -A files
             OUTPUT="vpinmdb.json"
@@ -98,15 +95,6 @@ jobs:
             echo "]"
             } > "$OUTPUT"
 
-        - name: Upload vpinmdb json file
-          uses: actions/upload-artifact@v4
-          with:
-            name: vpinmediadb
-            path: vpinmdb.json
-
-        - if: github.repository == 'superhac/vpinmediadb' && github.ref == 'refs/heads/main'
-          name: Commit and Push Changes
-          run: |
             git config --global user.name "github-actions[bot]"
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
             git add vpinmdb.json
