@@ -13,6 +13,8 @@ jobs:
       - name: Checkout repository
         run: |
           git clone --no-checkout --depth 1 https://github.com/superhac/vpinmediadb.git
-          git ls-tree --full-name --name-only -r HEAD
+          cd vpinmediadb
+          git ls-tree --full-name --name-only -r HEAD > files.txt
+
 
 
