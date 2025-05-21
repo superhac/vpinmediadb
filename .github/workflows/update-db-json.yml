@@ -29,7 +29,7 @@ jobs:
               path="${line#*/}"
               key="$id|$path"
               files["$key"]="$BASE_URL/$line"
-          done < input.txt
+          done < files.txt
 
           # Get unique IDs
           ids=$(for k in "${!files[@]}"; do echo "$k" | cut -d'|' -f1; done | sort -u)
