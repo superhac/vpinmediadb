@@ -100,3 +100,5 @@ jobs:
             git add vpinmdb.json
             git commit -m "vpinmediadb: regenerate vpinmdb.json"
             git push
+          env:
+            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
