@@ -9,8 +9,11 @@ jobs:
   update-vpinmdb:
     runs-on: ubuntu-latest
 
-    steps:
+   steps:
       - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Clone vpinmediadb and list files
         run: |
           git clone --no-checkout --depth 1 https://github.com/superhac/vpinmediadb.git
           cd vpinmediadb
@@ -18,7 +21,6 @@ jobs:
           cat files.txt
       - name: Generate json file
         run: |
-          cd vpinmediadb
           BASE_URL="https://github.com/superhac/vpinmediadb/raw/refs/heads/main"
           declare -A files
           OUTPUT="vpinmdb.json"
