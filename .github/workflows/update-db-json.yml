@@ -18,6 +18,7 @@ jobs:
           cat files.txt
       - name: Generate json file
         run: |
+          cd vpinmediadb
           BASE_URL="https://github.com/superhac/vpinmediadb/raw/refs/heads/main"
           declare -A files
           OUTPUT="vpinmdb.json"
