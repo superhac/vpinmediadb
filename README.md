@@ -1,5 +1,5 @@
 # VPinMediaDB
-The VPX Media Database contains the media files for the table, bg, dmd and wheel images.  All media files are tied to the [VPSDB ID](https://virtualpinballspreadsheet.github.io).
+The VPX Media Database contains the media files for the table, bg, dmd and wheel images.  All media files are tied to the [VPSDB ID](https://virtualpinballspreadsheet.github.io). A file name `vpinmdb.json` contains a list of all images, resolution and their url.
 
 ## Layout
 ```
