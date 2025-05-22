@@ -15,6 +15,7 @@ jobs:
             git clone --no-checkout --depth 1 https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} repo
             cd repo
             git ls-tree --full-name --name-only -r HEAD > files.txt
+            cat files.txt
         - name: Make changes
           working-directory: repo
           run: |
