@@ -12,6 +12,7 @@ The VPX Media Database contains the media files for the table, bg, dmd and wheel
 │   ├── fss.png
 │   └── table.png
 └── wheel.png
+└── cab.png
 ```
 
 | Filename | Description         |
@@ -20,6 +21,7 @@ The VPX Media Database contains the media files for the table, bg, dmd and wheel
 | dmd.png   | DMD                |
 | fss.png   | Full Single Screen |
 | wheel.png | Wheel              |
+| cab.png   | Pinball cab        |
 
 ## Acknowledgments 
 
