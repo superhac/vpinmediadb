@@ -8,6 +8,7 @@ The VPX Media Database contains the media files for the table, bg, dmd and wheel
 │   ├── bg.png
 │   ├── dmd.png
 │   └── fss.png
+|   └── table.png
 ├── 4k
 │   ├── fss.png
 │   └── table.png
