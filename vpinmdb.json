@@ -3408,6 +3408,18 @@
     "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/EM2muFci/wheel.png",
     "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/EM2muFci/cab.png"
   },
+  "_EnIegJR": {
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/_EnIegJR/1k/bg.png",
+      "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/_EnIegJR/1k/dmd.png",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/_EnIegJR/1k/table.png"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/_EnIegJR/4k/table.png"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/_EnIegJR/wheel.png",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/_EnIegJR/cab.png"
+  },
   "EoB4gz82": {
     "1k": {
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/EoB4gz82/1k/bg.png",
@@ -3859,11 +3871,17 @@
     "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/__fy1P9r/cab.png"
   },
   "G2R9RT47DC": {
-    "1k": {},
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/G2R9RT47DC/1k/bg.png",
+      "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/G2R9RT47DC/1k/dmd.png",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/G2R9RT47DC/1k/table.png"
+    },
     "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/G2R9RT47DC/4k/table.png",
       "fss": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/G2R9RT47DC/4k/fss.png"
     },
-    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/G2R9RT47DC/wheel.png"
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/G2R9RT47DC/wheel.png",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/G2R9RT47DC/cab.png"
   },
   "G3ZMZ1xP": {
     "1k": {
