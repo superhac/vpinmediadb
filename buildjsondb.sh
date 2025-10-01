@@ -13,7 +13,8 @@ for dir in */; do
     four_k_dir="${dir}4k"
     wheel_file="${dir}wheel.png"
     cab_file="${dir}cab.png"
-
+    realdmd_file="${dir}realdmd.png"
+    realdmd_color_file="${dir}realdmd-color.png"
 
     j1kdata='"1k": {'
     if [[ -d "$one_k_dir" ]]; then
@@ -41,10 +42,18 @@ for dir in */; do
     cab=""
     [[ -f "$cab_file" ]] && cab="\"cab\": \"$baseUrl/$id/cab.png\""
 
+    realdmd=""
+    [[ -f "$realdmd_file" ]] && realdmd="\"realdmd\": \"$baseUrl/$id/realdmd.png\""
+
+    realdmd_color=""
+    [[ -f "$realdmd_color_file" ]] && realdmd_color="\"realdmd_color\": \"$baseUrl/$id/realdmd-color.png\""
+
     # Construct object
     item_contents="$j1kdata, $j4kdata"
     [[ -n "$wheel" ]] && item_contents+=", $wheel"
     [[ -n "$cab" ]] && item_contents+=", $cab"
+    [[ -n "$realdmd" ]] && item_contents+=", $realdmd"
+    [[ -n "$realdmd_color" ]] && item_contents+=", $realdmd_color"
 
     new_item="{ $item_contents }"
 
