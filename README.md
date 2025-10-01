@@ -14,15 +14,19 @@ The VPX Media Database contains the media files for the table, bg, dmd and wheel
 │   └── table.png
 └── wheel.png
 └── cab.png
+└── realdmd.png
+└── realdmd-color.png
 ```
 
-| Filename | Description         |
-| --------- | ------------------ |
-| bg.png    | Backglass          |
-| dmd.png   | DMD                |
-| fss.png   | Full Single Screen |
-| wheel.png | Wheel              |
-| cab.png   | Pinball cab        |
+| Filename | Description                   |
+| ---------           | ------------------ |
+| bg.png              | Backglass          |
+| dmd.png             | DMD                |
+| fss.png             | Full Single Screen |
+| wheel.png           | Wheel              |
+| cab.png             | Pinball cab        |
+| realdmd.png         | Real DMD Frame     |
+| realdmd-color.png   | Real DMD Frame Colorized version        |
 
 ## Acknowledgments 
 
