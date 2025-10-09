@@ -7753,9 +7753,16 @@
     "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/pmYQ11-U/cab.png"
   },
   "PNSOLxAvIN": {
-    "1k": {},
-    "4k": {},
-    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/PNSOLxAvIN/wheel.png"
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/PNSOLxAvIN/1k/bg.png",
+      "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/PNSOLxAvIN/1k/dmd.png",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/PNSOLxAvIN/1k/table.png"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/PNSOLxAvIN/4k/table.png"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/PNSOLxAvIN/wheel.png",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/PNSOLxAvIN/cab.png"
   },
   "pQsqGpS1": {
     "1k": {
