@@ -7666,6 +7666,7 @@
     "4k": {
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/opCgaArraX/4k/table.png"
     },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/opCgaArraX/wheel.png",
     "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/opCgaArraX/cab.png"
   },
   "OQ1VlYZ3": {
@@ -9534,6 +9535,18 @@
     },
     "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/tpAW6We5dj/wheel.png",
     "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/tpAW6We5dj/cab.png"
+  },
+  "Tr4QuA4p": {
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/Tr4QuA4p/1k/bg.png",
+      "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/Tr4QuA4p/1k/dmd.png",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/Tr4QuA4p/1k/table.png"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/Tr4QuA4p/4k/table.png"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/Tr4QuA4p/wheel.png",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/Tr4QuA4p/cab.png"
   },
   "tT-FJX5A": {
     "1k": {
