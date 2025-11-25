@@ -6737,6 +6737,18 @@
     "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/MBiAY_Tg/cab.png",
     "realdmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/MBiAY_Tg/realdmd.png"
   },
+  "mbQ_5HbH": {
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/mbQ_5HbH/1k/bg.png",
+      "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/mbQ_5HbH/1k/dmd.png",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/mbQ_5HbH/1k/table.png"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/mbQ_5HbH/4k/table.png"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/mbQ_5HbH/wheel.png",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/mbQ_5HbH/cab.png"
+  },
   "_mbRxgJP": {
     "1k": {
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/_mbRxgJP/1k/bg.png",
