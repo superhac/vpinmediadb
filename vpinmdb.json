@@ -9202,9 +9202,15 @@
   },
   "RMA_-4X_": {
     "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/RMA_-4X_/1k/bg.png",
+      "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/RMA_-4X_/1k/dmd.png",
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/RMA_-4X_/1k/table.png"
     },
-    "4k": {}
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/RMA_-4X_/4k/table.png"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/RMA_-4X_/wheel.png",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/RMA_-4X_/cab.png"
   },
   "RMHo_TchqR": {
     "1k": {
@@ -9859,9 +9865,15 @@
   },
   "T-m3OD8a": {
     "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/T-m3OD8a/1k/bg.png",
+      "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/T-m3OD8a/1k/dmd.png",
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/T-m3OD8a/1k/table.png"
     },
-    "4k": {}
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/T-m3OD8a/4k/table.png"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/T-m3OD8a/wheel.png",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/T-m3OD8a/cab.png"
   },
   "tnAcpB2_": {
     "1k": {
