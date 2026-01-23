@@ -16,6 +16,16 @@ calc_md5() {
   fi
 }
 
+# MD5 for an arbitrary string (used to create a version hash)
+calc_md5_string() {
+  local data="$1"
+  if command -v md5sum >/dev/null 2>&1; then
+    printf '%s' "$data" | md5sum | awk '{print $1}'
+  else
+    printf '%s' "$data" | md5 -q
+  fi
+}
+
 for dir in */; do
   if [[ -d "$dir" ]]; then
     echo "Checking: $dir"
@@ -103,6 +113,10 @@ for dir in */; do
     [[ -n "$cab" ]] && item_contents+=", $cab"
     [[ -n "$realdmd" ]] && item_contents+=", $realdmd"
     [[ -n "$realdmd_color" ]] && item_contents+=", $realdmd_color"
+
+    # Version derived from the serialized item contents
+    version=$(calc_md5_string "$item_contents")
+    item_contents+=", \"version\": \"$version\""
 
     new_item="{ $item_contents }"
 
