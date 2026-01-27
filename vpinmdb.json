@@ -8246,6 +8246,25 @@
     "realdmd_md5": "3f2c189009b9f096fb8660b3bcb8d9ca",
     "version": "583219868580f5cfacd78abcb100373d"
   },
+  "GQVgQ-sou9": {
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/GQVgQ-sou9/1k/bg.png",
+      "bg_md5": "1d6ab2167ba6af8024ca3163a5decb03",
+      "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/GQVgQ-sou9/1k/dmd.png",
+      "dmd_md5": "c69bd44aa2b5838d396c9532189b7313",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/GQVgQ-sou9/1k/table.png",
+      "table_md5": "4e82fae65ccb62b4ccb5baf777e40cd1"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/GQVgQ-sou9/4k/table.png",
+      "table_md5": "380028d84695230c3a9da544be2d2772"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/GQVgQ-sou9/wheel.png",
+    "wheel_md5": "4b64774b7294398f4969697f37199b95",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/GQVgQ-sou9/cab.png",
+    "cab_md5": "77e9dc2b96aeadabbcce1e1aaaae8366",
+    "version": "de4be0b00aab10658d27b418cecab9a5"
+  },
   "GroBXldo": {
     "1k": {
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/GroBXldo/1k/bg.png",
