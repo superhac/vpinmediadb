@@ -7202,6 +7202,23 @@
     "cab_md5": "a984e6c634664df110c51a413acbdf87",
     "version": "60457bd8fa11b9f59df192f8299d02dc"
   },
+  "fi-U29u2": {
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/fi-U29u2/1k/bg.png",
+      "bg_md5": "9b4fcc02797a9a7a00af88ba3eb7f2eb",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/fi-U29u2/1k/table.png",
+      "table_md5": "871e07e1215a60a3c7ee15a3aad67270"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/fi-U29u2/4k/table.png",
+      "table_md5": "239d7b29e1d9de2d9961c66f2ec5fcb5"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/fi-U29u2/wheel.png",
+    "wheel_md5": "592fef538d0dcd24a44b76fa81a27ec9",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/fi-U29u2/cab.png",
+    "cab_md5": "dde64c579186eabc053765a96bf7f163",
+    "version": "c278f5c8b20180f91955e2f680429cca"
+  },
   "fJJ_7OYJqy": {
     "1k": {
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/fJJ_7OYJqy/1k/bg.png",
