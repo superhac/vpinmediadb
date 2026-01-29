@@ -38,6 +38,7 @@ for dir in */; do
     cab_file="${dir}cab.png"
     realdmd_file="${dir}realdmd.png"
     realdmd_color_file="${dir}realdmd-color.png"
+    flyer_file="${dir}flyer.png"
 
     j1kdata='"1k": {'
     if [[ -d "$one_k_dir" ]]; then
@@ -95,6 +96,12 @@ for dir in */; do
       cab="\"cab\": \"$baseUrl/$id/cab.png\", \"cab_md5\": \"$cab_md5\""
     fi
 
+    flyer=""
+    if [[ -f "$flyer_file" ]]; then
+      flyer_md5=$(calc_md5 "$flyer_file")
+      flyer="\"flyer\": \"$baseUrl/$id/flyer.png\", \"flyer_md5\": \"$flyer_md5\""
+    fi
+
     realdmd=""
     if [[ -f "$realdmd_file" ]]; then
       realdmd_md5=$(calc_md5 "$realdmd_file")
@@ -111,6 +118,7 @@ for dir in */; do
     item_contents="$j1kdata, $j4kdata"
     [[ -n "$wheel" ]] && item_contents+=", $wheel"
     [[ -n "$cab" ]] && item_contents+=", $cab"
+    [[ -n "$flyer" ]] && item_contents+=", $flyer"
     [[ -n "$realdmd" ]] && item_contents+=", $realdmd"
     [[ -n "$realdmd_color" ]] && item_contents+=", $realdmd_color"
 
