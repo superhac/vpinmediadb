@@ -4806,7 +4806,9 @@
     "wheel_md5": "b2b30476e392a18e0d950fece27420e7",
     "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/AlMCM4sbbh/cab.png",
     "cab_md5": "359292a72dcfc08b83c85ab74d2fd5cc",
-    "version": "e14720063b40da0a192e4e61356e7128"
+    "flyer": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/AlMCM4sbbh/flyer.png",
+    "flyer_md5": "0d2ac6e637f8acd9b14116a2c20421c7",
+    "version": "6b780b2242734dc058df680305acec91"
   },
   "AMCLtAQL": {
     "1k": {
