@@ -626,7 +626,9 @@
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/19gVKHrB8N/1k/bg.png",
       "bg_md5": "718be04d944547103782f240e47463c9",
       "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/19gVKHrB8N/1k/dmd.png",
-      "dmd_md5": "7ee2bf53f0f7b7c466174edb26f4a3d1"
+      "dmd_md5": "e4f11f307c955a7ce13ead4e44516790",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/19gVKHrB8N/1k/table.png",
+      "table_md5": "144110f3c99696437e7477decf1af8db"
     },
     "4k": {
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/19gVKHrB8N/4k/table.png",
@@ -634,9 +636,11 @@
     },
     "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/19gVKHrB8N/wheel.png",
     "wheel_md5": "8cca27abc74c2190dcc9c2c1883d095e",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/19gVKHrB8N/cab.png",
+    "cab_md5": "8ecdc564be167e4c815cb593dca34a10",
     "flyer": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/19gVKHrB8N/flyer.png",
     "flyer_md5": "6846a5ded33fee57bda52b5a2f0c1a77",
-    "version": "eec518d7448c2f03f253c190e70d0f76"
+    "version": "fd6ce9d8c10c2589e3c2f662d2dae46f"
   },
   "-1-bh8r8Re": {
     "1k": {
@@ -4784,6 +4788,25 @@
     "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/akYNyhNO/cab.png",
     "cab_md5": "bcd976d7bc5f230dfc5b5d37b4854422",
     "version": "316dd2ac53d3e4f7c26d657d63be18a7"
+  },
+  "AlMCM4sbbh": {
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/AlMCM4sbbh/1k/bg.png",
+      "bg_md5": "6f7d14c0311c5e8a7210fd8563c99733",
+      "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/AlMCM4sbbh/1k/dmd.png",
+      "dmd_md5": "b259b853f5545fcb722754a9a0dafb03",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/AlMCM4sbbh/1k/table.png",
+      "table_md5": "7e078a1628587ff7fb64a7a54ed3ffca"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/AlMCM4sbbh/4k/table.png",
+      "table_md5": "2658f9ecd545b9e54ed763a62886496a"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/AlMCM4sbbh/wheel.png",
+    "wheel_md5": "b2b30476e392a18e0d950fece27420e7",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/AlMCM4sbbh/cab.png",
+    "cab_md5": "359292a72dcfc08b83c85ab74d2fd5cc",
+    "version": "e14720063b40da0a192e4e61356e7128"
   },
   "AMCLtAQL": {
     "1k": {
