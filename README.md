@@ -3,7 +3,7 @@ The VPX Media Database contains the media files for the table, bg, dmd and wheel
 
 ## Layout Example
 ```
-"0RdFWzVI": {
+  "0RdFWzVI": {
     "1k": {
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/0RdFWzVI/1k/bg.png",
       "bg_md5": "ca21c77a4a34bdec0953f3b1ce2c3e4c",
@@ -12,7 +12,9 @@ The VPX Media Database contains the media files for the table, bg, dmd and wheel
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/0RdFWzVI/1k/table.png",
       "table_md5": "b4658230c2b4b53b1ceded3d4fcabb48",
       "fss": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/0RdFWzVI/1k/fss.png",
-      "fss_md5": "b723cf7d2f4d26903de3f04d4d712e90"
+      "fss_md5": "b723cf7d2f4d26903de3f04d4d712e90",
+      "table_video": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/0RdFWzVI/1k/table.mp4",
+      "table_video_md5": "e6cb5dab72e8785eb857ff4ff4305ca7"
     },
     "4k": {
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/0RdFWzVI/4k/table.png",
@@ -26,7 +28,7 @@ The VPX Media Database contains the media files for the table, bg, dmd and wheel
     "cab_md5": "79540279e1549906cc4eae0f64d5c330",
     "flyer": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/0RdFWzVI/flyer.png",
     "flyer_md5": "f7b664a38fed726e17a17cd51315585c",
-    "version": "2cee164d11403f0584e1aa3eea82239b"
+    "version": "aee4874c9b6e96305590b4d661dbd749"
   }
 ```
 The MD5 hash is used to determine if the image has changed since the last update.
@@ -41,6 +43,9 @@ The MD5 hash is used to determine if the image has changed since the last update
 | realdmd.png         | Real DMD Frame     |
 | realdmd-color.png   | Real DMD Frame Colorized version        |
 | flyer.png           | Flyer              |   
+| table.mp4           | Table video        |
+| bg.mp4              | bg video           |
+| dmd.mp4             | dmd video          |
 
 ## Acknowledgments 
 
