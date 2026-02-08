@@ -58,6 +58,10 @@ for dir in */; do
         fss_md5=$(calc_md5 "$one_k_dir/fss.png")
         j1kdata+="\"fss\": \"$baseUrl/$id/1k/fss.png\",\"fss_md5\": \"$fss_md5\"," 
       fi
+      if [[ -f "$one_k_dir/table.mp4" ]]; then
+        table_video_md5=$(calc_md5 "$one_k_dir/table.mp4")
+        j1kdata+="\"table_video\": \"$baseUrl/$id/1k/table.mp4\",\"table_video_md5\": \"$table_video_md5\","
+      fi
     fi
     j1kdata=$(sed 's/,$//' <<< "$j1kdata")
     j1kdata+='}'
