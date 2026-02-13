@@ -7041,7 +7041,9 @@
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/DoQilHBe/1k/bg.png",
       "bg_md5": "6b80edad24ac6f03d07d085e8b9d63c4",
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/DoQilHBe/1k/table.png",
-      "table_md5": "e09334ba938924e6291f9a25b7032e73"
+      "table_md5": "e09334ba938924e6291f9a25b7032e73",
+      "table_video": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/DoQilHBe/1k/table.mp4",
+      "table_video_md5": "b63ab996a010b9d0aad44ffb7a0af5b4"
     },
     "4k": {
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/DoQilHBe/4k/table.png",
@@ -7051,7 +7053,7 @@
     "wheel_md5": "a15aa390d22ce7543664677d225cbf89",
     "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/DoQilHBe/cab.png",
     "cab_md5": "916d8402b65ceb07dde4e4085dd84b2f",
-    "version": "7c9a11275818595f418e19c9383cd05b"
+    "version": "920a54e1c67ae42740016443a3afead8"
   },
   "_dOxi60nms": {
     "1k": {
