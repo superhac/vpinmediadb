@@ -7036,6 +7036,23 @@
     "flyer_md5": "2df59196727053cb32042bf3c405b182",
     "version": "b3e445311b8ebb04ac1a94807328fee2"
   },
+  "DoQilHBe": {
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/DoQilHBe/1k/bg.png",
+      "bg_md5": "6b80edad24ac6f03d07d085e8b9d63c4",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/DoQilHBe/1k/table.png",
+      "table_md5": "e09334ba938924e6291f9a25b7032e73"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/DoQilHBe/4k/table.png",
+      "table_md5": "bf3ac5143f72ccb908e14f24bc3bc134"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/DoQilHBe/wheel.png",
+    "wheel_md5": "a15aa390d22ce7543664677d225cbf89",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/DoQilHBe/cab.png",
+    "cab_md5": "916d8402b65ceb07dde4e4085dd84b2f",
+    "version": "7c9a11275818595f418e19c9383cd05b"
+  },
   "_dOxi60nms": {
     "1k": {
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/_dOxi60nms/1k/bg.png",
@@ -20203,7 +20220,9 @@
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/UrEARMMt/1k/bg.png",
       "bg_md5": "79a715ca4ae101b79b4928f0f1422135",
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/UrEARMMt/1k/table.png",
-      "table_md5": "cc727849466ba5f758405c255431ff48"
+      "table_md5": "cc727849466ba5f758405c255431ff48",
+      "table_video": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/UrEARMMt/1k/table.mp4",
+      "table_video_md5": "e2faa6da20d60223ed3449d2db6aa7a5"
     },
     "4k": {
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/UrEARMMt/4k/table.png",
@@ -20213,7 +20232,7 @@
     "wheel_md5": "a5f2912c3155ea86c9e016a7e654f4f6",
     "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/UrEARMMt/cab.png",
     "cab_md5": "df665e2c1b22c54fe425cd2880daf536",
-    "version": "fb666cfa01e9356ffa258bc8c5927f1b"
+    "version": "fcede2486a8263e4c29dbd49f38180bf"
   },
   "UrLUrItP": {
     "1k": {
