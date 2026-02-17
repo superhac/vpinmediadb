@@ -3,10 +3,11 @@
 data='{}'
 baseUrl="https://github.com/superhac/vpinmediadb/raw/refs/heads/main"
 
-# Compute MD5 hash in a portable way (md5sum on GNU, md5 -q on macOS)
+# ----------------------------
+# MD5 helpers
+# ----------------------------
 calc_md5() {
   local file="$1"
-  # Handle paths that start with '-' so hash tools don't treat them as options
   [[ "$file" == -* ]] && file="./$file"
 
   if command -v md5sum >/dev/null 2>&1; then
@@ -16,125 +17,89 @@ calc_md5() {
   fi
 }
 
-# MD5 for an arbitrary string (used to create a version hash)
 calc_md5_string() {
-  local data="$1"
+  local input="$1"
   if command -v md5sum >/dev/null 2>&1; then
-    printf '%s' "$data" | md5sum | awk '{print $1}'
+    printf '%s' "$input" | md5sum | awk '{print $1}'
   else
-    printf '%s' "$data" | md5 -q
+    printf '%s' "$input" | md5 -q
   fi
 }
 
+# ----------------------------
+# Build resolution block safely
+# ----------------------------
+build_resolution_block() {
+  local dir="$1"
+  local id="$2"
+  local res="$3"
+
+  local res_path="${dir}${res}"
+  local json='{}'
+
+  [[ ! -d "$res_path" ]] && echo "$json" && return
+
+  for file in bg.png dmd.png table.png fss.png table.mp4; do
+    if [[ -f "$res_path/$file" ]]; then
+      key="${file%.*}"
+      [[ "$file" == "table.mp4" ]] && key="table_video"
+
+      md5=$(calc_md5 "$res_path/$file")
+
+      json=$(jq \
+        --arg key "$key" \
+        --arg url "$baseUrl/$id/$res/$file" \
+        --arg md5 "$md5" \
+        '. + {($key): $url, ($key + "_md5"): $md5}' <<< "$json")
+    fi
+  done
+
+  echo "$json"
+}
+
+# ----------------------------
+# Main loop
+# ----------------------------
 for dir in */; do
-  if [[ -d "$dir" ]]; then
-    echo "Checking: $dir"
-    dir_name="${dir%/}"  # remove trailing slash
-    id="${dir%/}"
+  [[ ! -d "$dir" ]] && continue
 
-    one_k_dir="${dir}1k"
-    four_k_dir="${dir}4k"
-    wheel_file="${dir}wheel.png"
-    cab_file="${dir}cab.png"
-    realdmd_file="${dir}realdmd.png"
-    realdmd_color_file="${dir}realdmd-color.png"
-    flyer_file="${dir}flyer.png"
+  echo "Checking: $dir"
+  id="${dir%/}"
 
-    j1kdata='"1k": {'
-    if [[ -d "$one_k_dir" ]]; then
-      if [[ -f "$one_k_dir/bg.png" ]]; then
-        bg_md5=$(calc_md5 "$one_k_dir/bg.png")
-        j1kdata+="\"bg\": \"$baseUrl/$id/1k/bg.png\",\"bg_md5\": \"$bg_md5\"," 
-      fi
-      if [[ -f "$one_k_dir/dmd.png" ]]; then
-        dmd_md5=$(calc_md5 "$one_k_dir/dmd.png")
-        j1kdata+="\"dmd\": \"$baseUrl/$id/1k/dmd.png\",\"dmd_md5\": \"$dmd_md5\"," 
-      fi
-      if [[ -f "$one_k_dir/table.png" ]]; then
-        table_md5=$(calc_md5 "$one_k_dir/table.png")
-        j1kdata+="\"table\": \"$baseUrl/$id/1k/table.png\",\"table_md5\": \"$table_md5\"," 
-      fi
-      if [[ -f "$one_k_dir/fss.png" ]]; then
-        fss_md5=$(calc_md5 "$one_k_dir/fss.png")
-        j1kdata+="\"fss\": \"$baseUrl/$id/1k/fss.png\",\"fss_md5\": \"$fss_md5\"," 
-      fi
-      if [[ -f "$one_k_dir/table.mp4" ]]; then
-        table_video_md5=$(calc_md5 "$one_k_dir/table.mp4")
-        j1kdata+="\"table_video\": \"$baseUrl/$id/1k/table.mp4\",\"table_video_md5\": \"$table_video_md5\","
-      fi
+  item='{}'
+
+  # 1k and 4k blocks
+  for res in 1k 4k; do
+    res_json=$(build_resolution_block "$dir" "$id" "$res")
+    item=$(jq --arg res "$res" --argjson block "$res_json" \
+      '. + {($res): $block}' <<< "$item")
+  done
+
+  # Top-level files
+  for file in wheel.png cab.png flyer.png realdmd.png realdmd-color.png audio.mp3; do
+    if [[ -f "${dir}${file}" ]]; then
+      key="${file%.*}"
+      [[ "$file" == "realdmd-color.png" ]] && key="realdmd_color"
+
+      md5=$(calc_md5 "${dir}${file}")
+
+      item=$(jq \
+        --arg key "$key" \
+        --arg url "$baseUrl/$id/$file" \
+        --arg md5 "$md5" \
+        '. + {($key): $url, ($key + "_md5"): $md5}' <<< "$item")
     fi
-    j1kdata=$(sed 's/,$//' <<< "$j1kdata")
-    j1kdata+='}'
+  done
 
-    j4kdata='"4k": {'
-    if [[ -d "$four_k_dir" ]]; then
-      if [[ -f "$four_k_dir/bg.png" ]]; then
-        bg_md5=$(calc_md5 "$four_k_dir/bg.png")
-        j4kdata+="\"bg\": \"$baseUrl/$id/4k/bg.png\",\"bg_md5\": \"$bg_md5\"," 
-      fi
-      if [[ -f "$four_k_dir/dmd.png" ]]; then
-        dmd_md5=$(calc_md5 "$four_k_dir/dmd.png")
-        j4kdata+="\"dmd\": \"$baseUrl/$id/4k/dmd.png\",\"dmd_md5\": \"$dmd_md5\"," 
-      fi
-      if [[ -f "$four_k_dir/table.png" ]]; then
-        table_md5=$(calc_md5 "$four_k_dir/table.png")
-        j4kdata+="\"table\": \"$baseUrl/$id/4k/table.png\",\"table_md5\": \"$table_md5\"," 
-      fi
-      if [[ -f "$four_k_dir/fss.png" ]]; then
-        fss_md5=$(calc_md5 "$four_k_dir/fss.png")
-        j4kdata+="\"fss\": \"$baseUrl/$id/4k/fss.png\",\"fss_md5\": \"$fss_md5\"," 
-      fi
-    fi
-    j4kdata=$(sed 's/,$//' <<< "$j4kdata")
-    j4kdata+='}'
+  # Version hash
+  version=$(calc_md5_string "$item")
 
-    wheel=""
-    if [[ -f "$wheel_file" ]]; then
-      wheel_md5=$(calc_md5 "$wheel_file")
-      wheel="\"wheel\": \"$baseUrl/$id/wheel.png\", \"wheel_md5\": \"$wheel_md5\""
-    fi
+  item=$(jq --arg version "$version" '. + {version: $version}' <<< "$item")
 
-    cab=""
-    if [[ -f "$cab_file" ]]; then
-      cab_md5=$(calc_md5 "$cab_file")
-      cab="\"cab\": \"$baseUrl/$id/cab.png\", \"cab_md5\": \"$cab_md5\""
-    fi
+  # Insert into main dict
+  data=$(jq --arg id "$id" --argjson item "$item" \
+    '. + {($id): $item}' <<< "$data")
 
-    flyer=""
-    if [[ -f "$flyer_file" ]]; then
-      flyer_md5=$(calc_md5 "$flyer_file")
-      flyer="\"flyer\": \"$baseUrl/$id/flyer.png\", \"flyer_md5\": \"$flyer_md5\""
-    fi
-
-    realdmd=""
-    if [[ -f "$realdmd_file" ]]; then
-      realdmd_md5=$(calc_md5 "$realdmd_file")
-      realdmd="\"realdmd\": \"$baseUrl/$id/realdmd.png\", \"realdmd_md5\": \"$realdmd_md5\""
-    fi
-
-    realdmd_color=""
-    if [[ -f "$realdmd_color_file" ]]; then
-      realdmd_color_md5=$(calc_md5 "$realdmd_color_file")
-      realdmd_color="\"realdmd_color\": \"$baseUrl/$id/realdmd-color.png\", \"realdmd_color_md5\": \"$realdmd_color_md5\""
-    fi
-
-    # Construct object
-    item_contents="$j1kdata, $j4kdata"
-    [[ -n "$wheel" ]] && item_contents+=", $wheel"
-    [[ -n "$cab" ]] && item_contents+=", $cab"
-    [[ -n "$flyer" ]] && item_contents+=", $flyer"
-    [[ -n "$realdmd" ]] && item_contents+=", $realdmd"
-    [[ -n "$realdmd_color" ]] && item_contents+=", $realdmd_color"
-
-    # Version derived from the serialized item contents
-    version=$(calc_md5_string "$item_contents")
-    item_contents+=", \"version\": \"$version\""
-
-    new_item="{ $item_contents }"
-
-    # Insert into dict with key "$id"
-    data=$(jq --arg id "$id" --argjson item "$new_item" '. + {($id): $item}' <<< "$data")
-  fi
 done
 
 echo "$data" > vpinmdb.json
