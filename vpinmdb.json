@@ -12464,11 +12464,23 @@
     "version": "2d09a9fbf5084489a2707042a64bf83e"
   },
   "JyxgU6op0S": {
-    "1k": {},
-    "4k": {},
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/JyxgU6op0S/1k/bg.png",
+      "bg_md5": "18e5c303e2ad15ab121b6e17c928d603",
+      "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/JyxgU6op0S/1k/dmd.png",
+      "dmd_md5": "033cf90de98a4217bcccce7adf8e16aa",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/JyxgU6op0S/1k/table.png",
+      "table_md5": "c33af31110af34c82f7ae7ef2fc49de2"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/JyxgU6op0S/4k/table.png",
+      "table_md5": "028a3fcb683eabb5349199dd067354f9"
+    },
     "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/JyxgU6op0S/wheel.png",
     "wheel_md5": "3b27bb363d502762c942b47ead4f4862",
-    "version": "8b35c5d4231d5b7a888c153e13aa5eaf"
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/JyxgU6op0S/cab.png",
+    "cab_md5": "436b84aac4f7b64b66048b8b582c2874",
+    "version": "ffbace8f1207551577298585f2fd7690"
   },
   "JyymjSp3": {
     "1k": {
