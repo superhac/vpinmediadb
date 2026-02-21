@@ -37,6 +37,7 @@ The MD5 hash is used to determine if the image has changed since the last update
 | ---------           | ------------------ |
 | bg.png              | Backglass          |
 | dmd.png             | DMD                |
+| table.png           | table              |
 | fss.png             | Full Single Screen |
 | wheel.png           | Wheel              |
 | cab.png             | Pinball cab        |
@@ -46,6 +47,7 @@ The MD5 hash is used to determine if the image has changed since the last update
 | table.mp4           | Table video        |
 | bg.mp4              | bg video           |
 | dmd.mp4             | dmd video          |
+| audip.mp3           | tables audio       |
 
 ## Acknowledgments 
 
