@@ -3139,6 +3139,25 @@
     "flyer_md5": "c6b008dd75e0cdbbbd109b51cbe889fc",
     "version": "cd25504813ed5d6c58cfda71890815f1"
   },
+  "6gWoDDnYsU": {
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/6gWoDDnYsU/1k/bg.png",
+      "bg_md5": "186f75c31a93ba0ee16c3b605d32ee5d",
+      "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/6gWoDDnYsU/1k/dmd.png",
+      "dmd_md5": "0a99d4b4e20fa639266ed03312360ad5",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/6gWoDDnYsU/1k/table.png",
+      "table_md5": "71e401eb7220c57693eec3c63de05a8f"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/6gWoDDnYsU/4k/table.png",
+      "table_md5": "a4a1ddfe26578924213f6f90f3bc2e1f"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/6gWoDDnYsU/wheel.png",
+    "wheel_md5": "084db40279cc08b4642b8f3e14bd6717",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/6gWoDDnYsU/cab.png",
+    "cab_md5": "49d69627832cee569069b7bb87673bbe",
+    "version": "01d98bc258eea7bb169c209e7f6a21e5"
+  },
   "6HmAOp06": {
     "1k": {
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/6HmAOp06/1k/bg.png",
@@ -4394,7 +4413,9 @@
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/92nbaYIQ/1k/bg.png",
       "bg_md5": "8e7de56ff8c9c632b9a407b16d28589b",
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/92nbaYIQ/1k/table.png",
-      "table_md5": "de17f120ddec22fb8d5a98d5d7c69e77"
+      "table_md5": "de17f120ddec22fb8d5a98d5d7c69e77",
+      "table_video": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/92nbaYIQ/1k/table.mp4",
+      "table_video_md5": "37d498b154e69be9976703bbdce8535e"
     },
     "4k": {
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/92nbaYIQ/4k/table.png",
@@ -4402,7 +4423,7 @@
     },
     "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/92nbaYIQ/cab.png",
     "cab_md5": "a2e3a1c45ff5be43e04c8c9f3da1473f",
-    "version": "ad0215eb68480af952b4fedaf8d5e66b"
+    "version": "442ae89ebca916bec9f15869a8f42d32"
   },
   "9ABPeTuZ": {
     "1k": {
