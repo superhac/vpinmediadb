@@ -278,7 +278,9 @@
     "cab_md5": "49cdd67efd0ba3bcd03141f018d0dd64",
     "flyer": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/0IDqTPkR_4/flyer.png",
     "flyer_md5": "fe09f71db102a5c33fd7686dfe8cb43c",
-    "version": "013161ba0c166c284dcc7de7f8e5edea"
+    "audio": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/0IDqTPkR_4/audio.mp3",
+    "audio_md5": "57106985ec39c38e4ac563d1dd0bde25",
+    "version": "932179b7988aeaa3fb251677c1686d68"
   },
   "0IrC6S2bwi": {
     "1k": {
@@ -1255,6 +1257,25 @@
     "flyer": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/2SoiVN-O/flyer.png",
     "flyer_md5": "2dd387b38fbda6b8e516e5feb0e1225f",
     "version": "ebc3194737b3b6d4495f30bb7313a6f1"
+  },
+  "2T6ufrmy": {
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/2T6ufrmy/1k/bg.png",
+      "bg_md5": "b7203410c707ab9f30c01f39d6a734e6",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/2T6ufrmy/1k/table.png",
+      "table_md5": "10cd78fcab110435401fb61e3d33fb3f"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/2T6ufrmy/4k/table.png",
+      "table_md5": "465c626c5f7e5c34d007bd873332abdd"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/2T6ufrmy/wheel.png",
+    "wheel_md5": "b3e276eed71d39d2d2d3e6bcf83f4051",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/2T6ufrmy/cab.png",
+    "cab_md5": "5929d033786d335d7fbe4e07fe974304",
+    "flyer": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/2T6ufrmy/flyer.png",
+    "flyer_md5": "1122ba3b887553c1f9dec942fcc641be",
+    "version": "9e4ac5b4868c0e707ea393f6dcbbdf7f"
   },
   "2v0eTaJ5": {
     "1k": {
@@ -11555,7 +11576,9 @@
     "cab_md5": "966fa988b99c04a9e7026fa68917818a",
     "flyer": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/h_ybvlm_VJ/flyer.png",
     "flyer_md5": "e39d751ec9229e5b23d766730cd71ae5",
-    "version": "a9d4e862e9a05255548b2a7005ed84c9"
+    "audio": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/h_ybvlm_VJ/audio.mp3",
+    "audio_md5": "7b1fb964daed1b104ffcb285459bd3fa",
+    "version": "e12a419c80f058a063431881363b709c"
   },
   "H_yLZGHB": {
     "1k": {
