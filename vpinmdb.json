@@ -26042,6 +26042,27 @@
     "cab_md5": "e16d0c9749e736230397a94bcdda236c",
     "version": "0af1e3f9c1fb68e7b9b49e6bc63104b4"
   },
+  "ZON_Da7C": {
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/ZON_Da7C/1k/bg.png",
+      "bg_md5": "45c7cdc857d647bbfb1ab37402440e65",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/ZON_Da7C/1k/table.png",
+      "table_md5": "6675248d738328310d1cf4f4e58b7359"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/ZON_Da7C/4k/table.png",
+      "table_md5": "c410bccd4915f9d7c72d9a6a604ff9d4"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/ZON_Da7C/wheel.png",
+    "wheel_md5": "933b845079f1a466b32991c1e2bdfae6",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/ZON_Da7C/cab.png",
+    "cab_md5": "9cfddbee04e3ebe4fbde4bf2b3a0a3ec",
+    "flyer": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/ZON_Da7C/flyer.png",
+    "flyer_md5": "e81f30617e08fdad2b11f8e24c5ac8af",
+    "audio": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/ZON_Da7C/audio.mp3",
+    "audio_md5": "28bfe60021e22985968db70716b9ab84",
+    "version": "b3125c437c99053115139123e69fdb13"
+  },
   "ZO-uU3wl": {
     "1k": {
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/ZO-uU3wl/1k/bg.png",
