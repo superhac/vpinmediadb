@@ -3183,7 +3183,9 @@
       "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/6gWoDDnYsU/1k/dmd.png",
       "dmd_md5": "0a99d4b4e20fa639266ed03312360ad5",
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/6gWoDDnYsU/1k/table.png",
-      "table_md5": "71e401eb7220c57693eec3c63de05a8f"
+      "table_md5": "71e401eb7220c57693eec3c63de05a8f",
+      "table_video": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/6gWoDDnYsU/1k/table.mp4",
+      "table_video_md5": "90fb510fd449b30f4c8bda4ddd5b2ce8"
     },
     "4k": {
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/6gWoDDnYsU/4k/table.png",
@@ -3193,7 +3195,7 @@
     "wheel_md5": "084db40279cc08b4642b8f3e14bd6717",
     "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/6gWoDDnYsU/cab.png",
     "cab_md5": "49d69627832cee569069b7bb87673bbe",
-    "version": "01d98bc258eea7bb169c209e7f6a21e5"
+    "version": "3d9502a99eb5292e61d051f2711892b2"
   },
   "6HmAOp06": {
     "1k": {
@@ -13727,7 +13729,9 @@
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/kJdQAB4H/1k/bg.png",
       "bg_md5": "d818873c5370b313a5ad1d24dbc154a5",
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/kJdQAB4H/1k/table.png",
-      "table_md5": "6c206f49413365233b0f33e500f77d7e"
+      "table_md5": "6c206f49413365233b0f33e500f77d7e",
+      "table_video": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/kJdQAB4H/1k/table.mp4",
+      "table_video_md5": "ceb9cd7c8db43d3588fa9c973311d27a"
     },
     "4k": {
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/kJdQAB4H/4k/table.png",
@@ -13741,7 +13745,7 @@
     "flyer_md5": "5993ca933358c873910440238f8d6beb",
     "audio": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/kJdQAB4H/audio.mp3",
     "audio_md5": "e5216f30765d72f47b48c71468d55090",
-    "version": "c6b0a51849a870817e7f5bde773f45e5"
+    "version": "c8e73f586e0dba6c8a997c703088510c"
   },
   "kKUo_nB9K6": {
     "1k": {
@@ -24052,7 +24056,9 @@
       "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/WrRaxvWk/1k/dmd.png",
       "dmd_md5": "a0fdd5a5ad38828c3def4deeebdab67c",
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/WrRaxvWk/1k/table.png",
-      "table_md5": "7935af6806a564273a8d89fb9703e8f5"
+      "table_md5": "7935af6806a564273a8d89fb9703e8f5",
+      "table_video": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/WrRaxvWk/1k/table.mp4",
+      "table_video_md5": "4d3a92a9ead8b605d91955582a43c1df"
     },
     "4k": {
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/WrRaxvWk/4k/table.png",
@@ -24062,7 +24068,7 @@
     "cab_md5": "62dc469d9528d8f8cb8e9abd38e86c58",
     "audio": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/WrRaxvWk/audio.mp3",
     "audio_md5": "e912661875ab962dc4c2d38a7d843885",
-    "version": "4ce3d73ee25e202ac2553004bf0d59ae"
+    "version": "b4321c8a5bba9fa0637fa22c8fa3ba27"
   },
   "Ws7aL7yM": {
     "1k": {
@@ -26180,7 +26186,9 @@
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/ZON_Da7C/1k/bg.png",
       "bg_md5": "45c7cdc857d647bbfb1ab37402440e65",
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/ZON_Da7C/1k/table.png",
-      "table_md5": "6675248d738328310d1cf4f4e58b7359"
+      "table_md5": "6675248d738328310d1cf4f4e58b7359",
+      "table_video": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/ZON_Da7C/1k/table.mp4",
+      "table_video_md5": "646586cc8bf7a70de00e814ed90d127b"
     },
     "4k": {
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/ZON_Da7C/4k/table.png",
@@ -26194,7 +26202,7 @@
     "flyer_md5": "e81f30617e08fdad2b11f8e24c5ac8af",
     "audio": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/ZON_Da7C/audio.mp3",
     "audio_md5": "28bfe60021e22985968db70716b9ab84",
-    "version": "b3125c437c99053115139123e69fdb13"
+    "version": "fef8afdc025aab2d24a5c7c7ea53ab49"
   },
   "ZO-uU3wl": {
     "1k": {
