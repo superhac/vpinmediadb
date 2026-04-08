@@ -15744,6 +15744,23 @@
     "audio_md5": "0a46d9058c0e78a8a652a7f3898f82ec",
     "version": "1866477c09730544059573bb9fe4699e"
   },
+  "mYomSKDriC": {
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/mYomSKDriC/1k/bg.png",
+      "bg_md5": "bfd42b072521a3e8bc179c9c25342279",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/mYomSKDriC/1k/table.png",
+      "table_md5": "3fb88491636767ec4bfac1c6837c1907"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/mYomSKDriC/4k/table.png",
+      "table_md5": "f4ead697cd094c56aa6ee9d680027ce8"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/mYomSKDriC/wheel.png",
+    "wheel_md5": "bd18d0c6b6521fd652f2e728a4422877",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/mYomSKDriC/cab.png",
+    "cab_md5": "16d7b49d6cb274a91a49fd39f00e3cc6",
+    "version": "4cea64f845627687181f1cca46e3ef24"
+  },
   "mzDAU-cMHs": {
     "1k": {
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/mzDAU-cMHs/1k/bg.png",
