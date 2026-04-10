@@ -6146,6 +6146,11 @@
     "audio_md5": "73edf0f9cf744708acc9995041f4e551",
     "version": "ce6e13c650adeb8dce0d977838efe9af"
   },
+  "bg_thumbs": {
+    "1k": {},
+    "4k": {},
+    "version": "4a58ec6e9f965676c6a3e8bef2e45eff"
+  },
   "bkbhaVNY": {
     "1k": {
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/bkbhaVNY/1k/bg.png",

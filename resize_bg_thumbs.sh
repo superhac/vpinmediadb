@@ -90,6 +90,11 @@ for dirpath in "${dirs[@]}"; do
     continue
   fi
 
+  if [[ -f "$dest" && ! "$src" -nt "$dest" ]]; then
+    printf "Skipping up-to-date file: %s\n" "$dest"
+    continue
+  fi
+
   printf "[%s/%s] %s -> %s\n" "$((count + 1))" "$total" "$src" "$dest"
   "${CONVERT_CMD[@]}" "$src" -resize 500x281! "$dest"
 
