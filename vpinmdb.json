@@ -3573,11 +3573,14 @@
     "version": "c43e017481fffd4969ba521b96a5f636"
   },
   "7bjYHY-8wv": {
-    "1k": {},
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/7bjYHY-8wv/1k/bg.png",
+      "bg_md5": "b6eb56751d97e36ced1faf30ec528e80"
+    },
     "4k": {},
     "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/7bjYHY-8wv/wheel.png",
     "wheel_md5": "421ca8b61dcff91a081028a7d8efe7ea",
-    "version": "69784dd12f263eca09297c48f71e5863"
+    "version": "373baf8a9cde66e38a690409cc0b4134"
   },
   "7boVHd5C": {
     "1k": {
