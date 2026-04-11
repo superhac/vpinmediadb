@@ -39,10 +39,15 @@ build_resolution_block() {
 
   [[ ! -d "$res_path" ]] && echo "$json" && return
 
-  for file in bg.png dmd.png table.png fss.png table.mp4; do
+  for file in bg.png dmd.png table.png fss.png table.mp4 dmd.mp4 bg.mp4; do
     if [[ -f "$res_path/$file" ]]; then
       key="${file%.*}"
-      [[ "$file" == "table.mp4" ]] && key="table_video"
+
+      case "$file" in
+        table.mp4) key="table_video" ;;
+        dmd.mp4)   key="dmd_video" ;;
+        bg.mp4)    key="bg_video" ;;
+      esac
 
       md5=$(calc_md5 "$res_path/$file")
 
