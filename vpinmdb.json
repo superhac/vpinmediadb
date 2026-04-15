@@ -3795,7 +3795,9 @@
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/7O0Ir6NU/1k/table.png",
       "table_md5": "ffb3bd1d89877eae5cb5c919c96a6a3c",
       "fss": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/7O0Ir6NU/1k/fss.png",
-      "fss_md5": "dee307d5d3db732355467eeb686d438e"
+      "fss_md5": "dee307d5d3db732355467eeb686d438e",
+      "dmd_video": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/7O0Ir6NU/1k/dmd.mp4",
+      "dmd_video_md5": "4d4e7b17d764ef2e479e70a59539becb"
     },
     "4k": {
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/7O0Ir6NU/4k/table.png",
@@ -3813,7 +3815,7 @@
     "realdmd_md5": "ac6a6cc1bd1aad4bbe9262f60065a0dd",
     "audio": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/7O0Ir6NU/audio.mp3",
     "audio_md5": "94106d549769d84502d4d2fd7c9d8467",
-    "version": "e84b0902ec55970d8bc1ae75b2bb76c1"
+    "version": "0feca93ea5cfbd2f4738b431b08765e9"
   },
   "7ptpBtAd": {
     "1k": {
@@ -26889,7 +26891,11 @@
       "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/zgubR4I-j3/1k/dmd.png",
       "dmd_md5": "65e90f356d20fd2107660c91bb8468ec",
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/zgubR4I-j3/1k/table.png",
-      "table_md5": "56a498a2662a8c6d0b79070a6e452cf2"
+      "table_md5": "56a498a2662a8c6d0b79070a6e452cf2",
+      "table_video": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/zgubR4I-j3/1k/table.mp4",
+      "table_video_md5": "bc1829aea4375be7ea93387a31352eed",
+      "dmd_video": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/zgubR4I-j3/1k/dmd.mp4",
+      "dmd_video_md5": "27df2f2c28c3387b3259104daf1c2e69"
     },
     "4k": {
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/zgubR4I-j3/4k/table.png",
@@ -26903,7 +26909,7 @@
     "flyer_md5": "0b4440a21d7f4d72ead19ec4f5727501",
     "audio": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/zgubR4I-j3/audio.mp3",
     "audio_md5": "c644a5d1f0991fa1ff39dee4a70996c2",
-    "version": "1c13e897bb8b48660e68295c13a76cae"
+    "version": "f2edd42c5d2b87dc62f5d1c55f88e419"
   },
   "ZH8wAKxh05": {
     "1k": {
