@@ -51,7 +51,7 @@ The MD5 hash is used to determine if the image has changed since the last update
 | table.mp4           | Table video        |
 | bg.mp4              | bg video           |
 | dmd.mp4             | dmd video          |
-| audip.mp3           | tables audio       |
+| audio.mp3           | tables audio       |
 
 ## Acknowledgments 
 
