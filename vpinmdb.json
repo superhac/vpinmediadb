@@ -20345,6 +20345,23 @@
     "audio_md5": "cf4c247a6cb44382fa47aad8015c1690",
     "version": "e928bb86bb23f3ae1757bbc716df10f1"
   },
+  "R350bsxL83": {
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/R350bsxL83/1k/bg.png",
+      "bg_md5": "848a5bb214ca768cb27d1c65e4c1eab3",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/R350bsxL83/1k/table.png",
+      "table_md5": "e02d403d9050229ace9608fe6377aadc"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/R350bsxL83/4k/table.png",
+      "table_md5": "4a1ca7dd655b00d995e22452c257ea4a"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/R350bsxL83/wheel.png",
+    "wheel_md5": "ee0ea1db4e5eef0bc608da4b4ee8412f",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/R350bsxL83/cab.png",
+    "cab_md5": "5b0dcaa17af850d0ed9402eb65e1847f",
+    "version": "f12b39211c3e0694f640745a2ed50fa0"
+  },
   "r3oBRyBq": {
     "1k": {
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/r3oBRyBq/1k/bg.png",
