@@ -4309,7 +4309,9 @@
   "8m388EijHd": {
     "1k": {
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/8m388EijHd/1k/bg.png",
-      "bg_md5": "815558fa09fdde4b27273b6d74cb9fd2",
+      "bg_md5": "d8dcb97a88dfc6d5375fde2fb6f98561",
+      "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/8m388EijHd/1k/dmd.png",
+      "dmd_md5": "47cb45fd868297b9c585834d424112ce",
       "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/8m388EijHd/1k/table.png",
       "table_md5": "725f9ce3b42db5f0221c3bc7aa697905"
     },
@@ -4321,7 +4323,7 @@
     "wheel_md5": "f060f0e08275850121279e56f7b36558",
     "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/8m388EijHd/cab.png",
     "cab_md5": "4a1616431a532c8e5a362b0380b1d260",
-    "version": "6d22c0b602694862d09a52373ede287a"
+    "version": "20c9249ccea90d8ad0cb1b661ab13214"
   },
   "8mEIe5p2": {
     "1k": {
@@ -17576,6 +17578,25 @@
     "flyer": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/NwLtspOH/flyer.png",
     "flyer_md5": "e596e2475d7503d9ba3f37d0a06b115e",
     "version": "6146161d3314b10379b4aa0a9912b09f"
+  },
+  "-nZmKE8kts": {
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/-nZmKE8kts/1k/bg.png",
+      "bg_md5": "fa087b2348cb9e31c2f3ce9a052b05b0",
+      "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/-nZmKE8kts/1k/dmd.png",
+      "dmd_md5": "3f404502f4cae536ba6f104bcfdfea75",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/-nZmKE8kts/1k/table.png",
+      "table_md5": "a1e2fa84efccb8509a1f4c0287be0088"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/-nZmKE8kts/4k/table.png",
+      "table_md5": "889a561bcc68da3911ecd978836d4699"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/-nZmKE8kts/wheel.png",
+    "wheel_md5": "b2d4f58c6b214797666d8d54cee863d9",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/-nZmKE8kts/cab.png",
+    "cab_md5": "f73063331b187e6866f429b24bb7bbd3",
+    "version": "12bceb857418aba75b7ded94b29beb8c"
   },
   "O1-qbuxg": {
     "1k": {
