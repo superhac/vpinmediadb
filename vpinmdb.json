@@ -26628,6 +26628,27 @@
     "audio_md5": "04c4c2709c41b2452cdfda7e51361d79",
     "version": "a0933107004992bbb38b3955a3a89769"
   },
+  "XX-Vp5Jlt0": {
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/XX-Vp5Jlt0/1k/bg.png",
+      "bg_md5": "d6642b5cf601ea930785f3425833e05a",
+      "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/XX-Vp5Jlt0/1k/dmd.png",
+      "dmd_md5": "9c86c7c8f226245df115ec2268bc2325",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/XX-Vp5Jlt0/1k/table.png",
+      "table_md5": "139dd291c17e735f52e204990c5ce0df"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/XX-Vp5Jlt0/4k/table.png",
+      "table_md5": "35cbfa1eed3ab7dbde9945283b1a26b4"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/XX-Vp5Jlt0/wheel.png",
+    "wheel_md5": "7d869d738facd6f3f98bec20d6ebc796",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/XX-Vp5Jlt0/cab.png",
+    "cab_md5": "358cdd9522be3108d2e5ac17ec69f946",
+    "flyer": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/XX-Vp5Jlt0/flyer.png",
+    "flyer_md5": "23b3dca8a7e23eaa469936b1b1889495",
+    "version": "9b249bc275b52ad9bf522b4f439e8eb3"
+  },
   "xxxuKVp7": {
     "1k": {
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/xxxuKVp7/1k/bg.png",
