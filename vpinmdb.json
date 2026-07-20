@@ -13193,6 +13193,27 @@
     "audio_md5": "01cb00d1bdae3b9e42a8ffc1c13a41ed",
     "version": "da2708ea99adcef3dcce46da6e203040"
   },
+  "IMImue4E": {
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/IMImue4E/1k/bg.png",
+      "bg_md5": "292ba3d0ed92b892679afc87e697321d",
+      "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/IMImue4E/1k/dmd.png",
+      "dmd_md5": "00863964d61c9056a33b8c85e339807a",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/IMImue4E/1k/table.png",
+      "table_md5": "50eaf24ecdbf71a4988a2f3a6b4d6f68"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/IMImue4E/4k/table.png",
+      "table_md5": "97c586f4366102a9586c42e2fe0581a6"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/IMImue4E/wheel.png",
+    "wheel_md5": "4b54e2b83378e7440af8d3c42469c05b",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/IMImue4E/cab.png",
+    "cab_md5": "8c8e886ed27f517c2656a2019ad0ef48",
+    "flyer": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/IMImue4E/flyer.png",
+    "flyer_md5": "8b5d3ce8bd3135e5dc00046f6d2316b0",
+    "version": "efdd3751ff6bb96bd00dcbab6e1a6490"
+  },
   "ImqfuWt4": {
     "1k": {
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/ImqfuWt4/1k/bg.png",
