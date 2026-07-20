@@ -13948,6 +13948,25 @@
     "audio_md5": "4700a52e4af10586f0383e19d738a061",
     "version": "de0737f18a937ad3918583ab5958e1ad"
   },
+  "JJudLgmP4L": {
+    "1k": {
+      "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/JJudLgmP4L/1k/bg.png",
+      "bg_md5": "17f061c5dd6d446c533114ec6be0d125",
+      "dmd": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/JJudLgmP4L/1k/dmd.png",
+      "dmd_md5": "f1e4a5ba748ac2063d4e148b053ed714",
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/JJudLgmP4L/1k/table.png",
+      "table_md5": "e68a05c092ea1fa2504995e6abeafea5"
+    },
+    "4k": {
+      "table": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/JJudLgmP4L/4k/table.png",
+      "table_md5": "06eecb98ec2ea2829ba64d7cf41125bc"
+    },
+    "wheel": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/JJudLgmP4L/wheel.png",
+    "wheel_md5": "8d8743e25f15c7e7f51f22ebcebe7bb7",
+    "cab": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/JJudLgmP4L/cab.png",
+    "cab_md5": "0e7b36c44e040a16976579b1f51786b1",
+    "version": "ee7f13b91eb88ad8a1598f38aaa893bd"
+  },
   "JjZGAssNXT": {
     "1k": {
       "bg": "https://github.com/superhac/vpinmediadb/raw/refs/heads/main/JjZGAssNXT/1k/bg.png",
